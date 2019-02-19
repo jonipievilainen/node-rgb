@@ -4,10 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "test": "node index.js",
+    "start": "electron ."
   },
   "author": "",
   "license": "ISC",
+  "devDependencies": {
+    "electron": "*",
+    "electron-rebuild": "*"
+  },
   "dependencies": {
     "serialport": "*"
   }
